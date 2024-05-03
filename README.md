@@ -33,7 +33,7 @@ SA - Sul da Ásia
 
 ## Reconhecimento
 
-Este conjunto de dados é criado a partir de Relatórios de Desenvolvimento Humano ![Link](https://hdr.undp.org/) . Este conjunto de dados está sob a licença Creative Commons Attribution 3.0 IGO. Você pode verificar os Termos de Uso ![Link](https://hdr.undp.org/terms-use) destes Dados. Se quiser saber mais, acesse o site.
+Este conjunto de dados é criado a partir de Relatórios de Desenvolvimento Humano (https://hdr.undp.org/) . Este conjunto de dados está sob a licença Creative Commons Attribution 3.0 IGO. Você pode verificar os Termos de Uso (https://hdr.undp.org/terms-use) destes Dados. Se quiser saber mais, acesse o site.
 
 
 ## Solução
