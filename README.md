@@ -31,5 +31,14 @@ SA - Sul da Ásia
 
 ![Tabela](https://i.imgur.com/PUej0u0.png)
 
+## Reconhecimento
+
+Este conjunto de dados é criado a partir de Relatórios de Desenvolvimento Humano ![Link]([https://i.imgur.com/PUej0u0.png](https://hdr.undp.org/) . Este conjunto de dados está sob a licença Creative Commons Attribution 3.0 IGO. Você pode verificar os Termos de Uso ![Link]([https://i.imgur.com/PUej0u0.png]([https://hdr.undp.org/](https://hdr.undp.org/terms-use) destes Dados. Se quiser saber mais, acesse o site.
+
 
 ## Solução
+
+1. Baixar os dados
+2. Organizar as colunas do Excel
+3. Fazer o modelo DDL no MYSQL Workbench e transfomar em modelo lógico
+4. Importar o arquivo CSV para o Cassandra 
