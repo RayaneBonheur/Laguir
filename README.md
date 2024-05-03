@@ -1,5 +1,6 @@
 # LAGUIR - 1º AV de DATABASE - UNINASSAU
 https://www.kaggle.com/datasets/iamsouravbanerjee/women-empowerment-index/data
+
 Medindo o Progresso: O Índice de Empoderamento das Mulheres
 
 ## Sobre o conjunto de dados
