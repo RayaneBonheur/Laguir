@@ -29,7 +29,7 @@ SA - Sul da Ásia
 
 ## Estrutura do conjunto de dados
 
-![Diagrama classes](i.imgur.com/PUej0u0.png)
+![Tabela](https://i.imgur.com/PUej0u0.png)
 
 
 ## Solução
