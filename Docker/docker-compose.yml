@@ -1,15 +1,11 @@
 version: '3.4'
 services:
-db: mysql_laguir
-image: mysql
-restart: always
-container_image: mysql_laguir
-environment: 
-MYSQL_DATABASE: mysql_laguir
-MYSQL_ROOT_PASSWORD: root
-
-ports:
- - 3306:3306
-volumes:
-- ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
-
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: mysql_laguir
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - '3306:3306'
+      
