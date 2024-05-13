@@ -7,5 +7,12 @@ services:
       MYSQL_DATABASE: mysql_laguir
       MYSQL_ROOT_PASSWORD: root
     ports:
-      - '3306:3306'
+      - '3307:3306'
       
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra
+    restart: always
+    ports:
+      - "9042:9042"
+
