@@ -1,0 +1,18 @@
+version: '3.4'
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: mysql_laguir
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - '3307:3306'
+      
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra
+    restart: always
+    ports:
+      - "9042:9042"
+

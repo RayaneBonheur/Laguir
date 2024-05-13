@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  laguir:
+    image: laguir
+    build:
+      context: .
+      dockerfile: ./Dockerfile
