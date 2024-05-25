@@ -1,5 +1,10 @@
-version: '3.4'
 services:
+  python:
+    image: python
+    entrypoint: tail -f /dev/null
+    volumes:
+      - .:/app
+    working_dir: /app
   db:
     image: mysql
     restart: always
@@ -7,7 +12,10 @@ services:
       MYSQL_DATABASE: mysql_laguir
       MYSQL_ROOT_PASSWORD: root
     ports:
-      - '3307:3306'
+      - '127.0.0.1:3307:3306'
+    volumes:
+      - .:/app
+      - mysql-data:/var/lib/mysql
 
   cassandra:
     image: cassandra:latest
@@ -20,7 +28,9 @@ services:
       - CASSANDRA_PASSWORD=admim
     volumes:
       - cassandra-data:/var/lib/cassandra
+      - .:/app
     
 volumes:
   cassandra-data:
+  mysql-data:
 
